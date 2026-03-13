@@ -288,7 +288,7 @@ export default function App() {
 
         <div className="w-full md:w-5/12 aspect-4/5 bg-gray-200 rounded-tl-[100px] rounded-br-[100px] overflow-hidden relative">
           <img
-            src="/Portfolio/assets/pic.jpg"
+            src="./assets/ehsan.png"
             alt="Ehsan Ullah"
             className="w-full h-full object-cover object-top scale-105"
           />
