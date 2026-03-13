@@ -302,7 +302,7 @@ export default function App() {
             <h2 className="text-4xl font-medium tracking-tighter mb-6">
               About Me
             </h2>
-            <p className="text-gray-600 leading-relaxed font-light text-lg">
+            <p className="text-gray-600 text-justify leading-relaxed font-light text-lg">
               I am a dedicated full-stack developer specializing in crafting
               seamless, interactive user experiences and robust backend systems.
               With a strong foundation in modern web standards like React, .NET,
@@ -341,7 +341,7 @@ export default function App() {
               <div className="bg-black text-white p-1 rounded-full shrink-0 mt-1">
                 <Plus size={16} />
               </div>
-              <p className="text-sm text-gray-600 leading-relaxed font-light">
+              <p className="text-sm text-gray-600 text-justify leading-relaxed font-light">
                 With{" "}
                 <strong className="font-medium text-black">
                   2+ years of personal coding experience
@@ -361,7 +361,7 @@ export default function App() {
                 <span className="inline-block px-3 py-1 bg-gray-100 text-black text-xs font-semibold rounded-full w-max tracking-wide uppercase">
                   {dynamicExperience} Professional Exp.
                 </span>
-                <p className="text-sm text-gray-600 leading-relaxed font-light">
+                <p className="text-sm text-gray-600 text-justify leading-relaxed font-light">
                   Since July 2025, I have been working professionally to build
                   scalable backend architectures, craft intuitive frontend
                   interfaces, collaborate with diverse teams, and deploy
@@ -374,7 +374,7 @@ export default function App() {
               <div className="bg-black text-white p-1 rounded-full shrink-0">
                 <Plus size={16} />
               </div>
-              <p className="text-sm text-gray-600 leading-relaxed font-light">
+              <p className="text-sm text-justify text-gray-600 leading-relaxed font-light">
                 I thrive on blending robust backend architecture (C#, .NET, SQL)
                 with beautiful, responsive frontends (React, Tailwind) to bring
                 visions to life.
@@ -465,7 +465,7 @@ export default function App() {
               Journey
             </h2>
           </div>
-          <div className="lg:col-span-2 text-gray-500 font-light flex items-end">
+          <div className="lg:col-span-2 text-justify text-gray-500 font-light flex items-end">
             Over my career, I've had the opportunity to work on scalable
             platforms, collaborating with diverse teams to bring creative
             solutions to life.
@@ -543,7 +543,7 @@ export default function App() {
       {/* Contact Section */}
       <section
         id="contact"
-        className="py-32 px-6 bg-[#1a1a1a] text-white mt-32 rounded-t-[40px]"
+        className="py-32 px-6 bg-[#1a1a1a] text-white mt-20 rounded-t-[40px]"
       >
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-light tracking-tighter mb-6">
