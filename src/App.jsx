@@ -288,7 +288,7 @@ export default function App() {
 
         <div className="w-full md:w-5/12 aspect-4/5 bg-gray-200 rounded-tl-[100px] rounded-br-[100px] overflow-hidden relative">
           <img
-            src="./assets/pic.jpg"
+            src="/Portfolio/assets/pic.jpg"
             alt="Ehsan Ullah"
             className="w-full h-full object-cover object-top scale-105"
           />
@@ -313,7 +313,7 @@ export default function App() {
             </p>
 
             <a
-              href="/assets/resume.pdf"
+              href="/Portfolio/assets/resume.pdf"
               target="_blank"
               className="mt-8 inline-flex items-center gap-2 bg-[#1a1a1a] text-white px-8 py-4 rounded-full font-medium hover:bg-black transition-all"
             >
