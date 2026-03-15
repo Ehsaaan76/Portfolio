@@ -305,7 +305,7 @@ export default function App() {
             <p className="text-gray-600 text-justify leading-relaxed font-light text-lg">
               I am a dedicated full-stack developer specializing in crafting
               seamless, interactive user experiences and robust backend systems.
-              With a strong foundation in modern web standards like React, .NET,
+              With a strong foundation in modern web standards like .NET, the MERN stack, React Native
               and SQL, I ensure projects look great and perform flawlessly under
               pressure. From real-time organizational tools to community-driven
               mobile apps, I bring creativity and precision to every level of
