@@ -502,7 +502,7 @@ export default function App() {
 
               <div>
                 <strong className="text-black font-medium">
-                  ADPAustGuards:
+                  AustGuards:
                 </strong>{" "}
                 Led frontend development for an Australian enterprise security
                 dashboard product, ensuring a seamless user experience.
