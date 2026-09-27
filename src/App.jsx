@@ -478,7 +478,7 @@ export default function App() {
             {/* Role & Timeline */}
             <div className="lg:col-span-3">
               <h3 className="text-xl font-medium tracking-tight">
-                Junior Software Engineer
+                Software Engineer
               </h3>
               <p className="text-xs text-gray-500 mt-2 tracking-wide">
                 Techinn360 • Rawalpindi (On-Site)
