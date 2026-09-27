@@ -491,7 +491,16 @@ export default function App() {
             {/* Description */}
             <div className="lg:col-span-6 text-sm text-gray-600 font-light pr-4 lg:pr-8 flex flex-col gap-3">
               <p>
-                Contributing to <strong className="text-black font-medium">HPAppen</strong>, a Swedish product built with Next.js and Node.js, contributing across frontend, backend, and APIs.
+                Contributing to{" "}
+                <a
+                  href="https://app.hpappen.se/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-black underline underline-offset-4 decoration-gray-300 hover:decoration-black transition-colors inline-flex items-center gap-0.5"
+                >
+                  HPAppen <ArrowUpRight size={14} />
+                </a>
+                , a Swedish product built with Next.js and Node.js, contributing across frontend, backend, and APIs.
               </p>
               <ul className="list-disc pl-4 flex flex-col gap-1.5 text-gray-600">
                 <li>
@@ -555,7 +564,7 @@ export default function App() {
                 Associate Software Engineer
               </h3>
               <p className="text-xs text-gray-500 mt-2 tracking-wide">
-                Kodware • July 2025 - Present
+                Kodware • July 2025 – April 2026
               </p>
             </div>
 
