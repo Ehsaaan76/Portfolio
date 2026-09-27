@@ -325,7 +325,7 @@ export default function App() {
             <div className="bg-white p-6 rounded-2xl border border-gray-100 flex items-center justify-between">
               <div>
                 <div className="text-5xl font-light tracking-tighter mb-2">
-                  3.77
+                  3.76
                 </div>
                 <p className="text-sm text-gray-500">
                   CGPA in BS Software Engineering
