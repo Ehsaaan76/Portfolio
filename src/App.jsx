@@ -472,8 +472,79 @@ export default function App() {
           </div>
         </div>
 
-        <div className="flex flex-col">
-          {/* Single Combined Experience Entry */}
+        <div className="flex flex-col gap-8">
+          {/* Techinn360 Experience Entry */}
+          <div className="py-8 border-t border-gray-200 grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+            {/* Role & Timeline */}
+            <div className="lg:col-span-3">
+              <h3 className="text-xl font-medium tracking-tight">
+                Junior Software Engineer
+              </h3>
+              <p className="text-xs text-gray-500 mt-2 tracking-wide">
+                Techinn360 • Rawalpindi (On-Site)
+              </p>
+              <p className="text-xs text-gray-400 mt-1 tracking-wide">
+                May 2026 – Present
+              </p>
+            </div>
+
+            {/* Description */}
+            <div className="lg:col-span-6 text-sm text-gray-600 font-light pr-4 lg:pr-8 flex flex-col gap-3">
+              <p>
+                Contributing to <strong className="text-black font-medium">HPAppen</strong>, a Swedish product built with Next.js and Node.js, contributing across frontend, backend, and APIs.
+              </p>
+              <ul className="list-disc pl-4 flex flex-col gap-1.5 text-gray-600">
+                <li>
+                  Optimized APIs, <strong className="text-black font-medium">application performance</strong>, and loading speed to improve overall product efficiency.
+                </li>
+                <li>
+                  Used Redux for scalable state management and integrated <strong className="text-black font-medium">Stripe</strong> for secure payment processing.
+                </li>
+                <li>
+                  Implemented <strong className="text-black font-medium">product analytics</strong> and tracking using PostHog and Mixpanel for data-driven improvements.
+                </li>
+              </ul>
+            </div>
+
+            {/* Tech Stack Tags */}
+            <div className="lg:col-span-3 grid grid-cols-2 gap-2 content-start w-full">
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                Next.js
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                React & Node.js
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                MongoDB
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                Redux
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                Tailwind CSS
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                Socket.io
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                Stripe
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                KaTeX
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                PostHog & Mixpanel
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                TypeScript
+              </span>
+              <span className="bg-[#f0f0f0] px-2 py-1.5 rounded-full text-[11px] font-medium tracking-wider text-center truncate">
+                Cypress & Jest
+              </span>
+            </div>
+          </div>
+
+          {/* Kodware Experience Entry */}
           <div className="py-8 border-t border-gray-200 grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
             {/* Role & Timeline (Takes 3 columns on large screens) */}
             <div className="lg:col-span-3">
