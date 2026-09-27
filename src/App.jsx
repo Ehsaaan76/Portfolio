@@ -313,8 +313,9 @@ export default function App() {
             </p>
 
             <a
-              href="/Portfolio/assets/resume.pdf"
+              href="/Portfolio/assets/resume.pdf?v=2"
               target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 bg-[#1a1a1a] text-white px-8 py-4 rounded-full font-medium hover:bg-black transition-all"
             >
               Download CV <ArrowUpRight size={18} />
